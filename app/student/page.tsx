@@ -25,6 +25,7 @@ import { LanguageSelector } from "@/components/language-selector"
 import { SyncStatusIndicator } from "@/components/sync-status"
 import { i18n } from "@/lib/i18n"
 
+
 export default function StudentDashboard() {
   const [lessons, setLessons] = useState<Lesson[]>([])
   const [progress, setProgress] = useState<StudentProgress[]>([])
@@ -203,7 +204,7 @@ export default function StudentDashboard() {
                 <Home className="h-4 w-4" />
               </Button>
               <Button variant="ghost" size="sm">
-                <User className="h-4 w-4" />
+                <Award className="h-4 w-4" />
               </Button>
               <Button variant="ghost" size="sm">
                 <Settings className="h-4 w-4" />

@@ -26,6 +26,7 @@ import { LanguageSelector } from "@/components/language-selector"
 import { SyncStatusIndicator } from "@/components/sync-status"
 import { i18n } from "@/lib/i18n"
 
+
 interface StudentWithProgress {
   student: any
   progress: StudentProgress[]
